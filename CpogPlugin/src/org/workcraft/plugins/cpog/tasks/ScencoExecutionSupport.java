@@ -424,9 +424,9 @@ public class ScencoExecutionSupport {
     }
 
     private BooleanFormula nameToVar(String name, Variable[] vars) {
-    	for (int i = 0; i < vars.length; i++) {
-    		if (vars[i].getLabel().equals(name)) return vars[i];
-    	}
+        for (int i = 0; i < vars.length; i++) {
+            if (vars[i].getLabel().equals(name)) return vars[i];
+        }
         return null;
     }
 
